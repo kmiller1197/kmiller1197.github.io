@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <form action="http://jorr.cs.georgefox.edu/resources/php/echo-form.php">
+    <div align="center">
+    <h1>Baseball Interests Form</h1>
+    Enter your name:
+    <input type="text" name="UserName" size=35 maxlength=35 value="">
+    </br></br>
+    Enter your favorite team:  
+    <input type="text" name="FavoriteTeam" size=35 maxlength=35 value=""> </br> </br>
+    Tell us a little about yourself and your experience with baseball:
+    <textarea name="Description" cols=30 rows=4></textarea> </br> </br>
+    Do you watch baseball at home?
+    <input type="radio" name="exe" value=1>Yes
+    <input type="radio" name="exe" value=2>No
+    </p>
+    What are your favorite positions?
+    <p>
+    <input type="checkbox" name="Right">Right Field
+    <input type="checkbox" name="Left">Left Field
+    <input type="checkbox" name="Center">Center Field
+    <input type="checkbox" name="First">First Base
+    <input type="checkbox" name="Second">Second Base
+    <input type="checkbox" name="Third">Third Base
+    <input type="checkbox" name="Short">Shortstop
+    <input type="checkbox" name="Catcher">Catcher
+    <input type="checkbox" name="Pitcher">Pitcher    
+    </p>
+    What type of game do you like?
+    <select name="GamePref" ><option>
+    <option value=1 selected = "true">Extra-Inning Games
+    <option value=2 >Low-Scoring Games
+    <option value=3 >High-Scoring Games
+    <option value=4 >Close Games
+    <option value=5 >Blow-Out Games
+    </select>
+    </br></br>
+    <input type=submit value="Submit form">
+    </br><br>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/320px-Major_League_Baseball_logo.svg.png" alt="MLB">
+  </body>
+</html>
