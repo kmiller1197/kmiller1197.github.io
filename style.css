@@ -5,7 +5,7 @@ a{
 }
 
 header{
-  width: 100%; height: 100vh;
+  width: 100%; height: 10vh;
   background-color: lightgray;
   background-repeat: no-repeat;
   background-size: cover;
@@ -16,9 +16,59 @@ img{
   height:90px;
 }
 
-MLB{
-  height:100px;
-  width:10px;
+#Logo{
+  height:90px;
+  width:150px;
+}
+
+#Nationals{
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+}
+
+#Intro{
+  font-weight: bold;
+  color: darkblue;
+}
+
+#Mariners{
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+}
+
+#Orioles{
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+}
+
+#Jays{
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+}
+
+#Phillies{
+  height:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+}
+
+#Ortiz{
+  height:500px;
+  width:450px;
 }
 
 nav{
