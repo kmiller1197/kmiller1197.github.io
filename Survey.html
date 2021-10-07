@@ -19,21 +19,21 @@
     <a href="PlayerStats.html">Player Stats</a>
     </div>
     </nav>
-    <form action="http://jorr.cs.georgefox.edu/resources/php/echo-form.php">
+    <form name="Baseball Information Form" method="POST" action="http://jorr.cs.georgefox.edu/resources/php/echo-form.php">
     <div align="center">
     <h1>Baseball Information Form</h1>
-    Enter your name:
-    <input type="text" name="UserName" size=35 maxlength=35 value="">
+    <label for="Name">Enter your name:</label><br>
+    <input type="text" name="Name" size=35 maxlength=35 value="">
     </br></br>
-    Enter your favorite team:  
+    <label for="Favorite Team">Enter your favorite team:</label><br>
     <input type="text" name="FavoriteTeam" size=35 maxlength=35 value=""> </br> </br>
-    Tell us a little about yourself and your experience with baseball:
+    <label for="Baseball Experience">Tell us a little about yourself and your experience with baseball:</label><br>
     <textarea name="Description" cols=30 rows=4></textarea> </br> </br>
-    Do you watch baseball at home?
+    <label for="Watch at Home">Do you watch baseball at home?</label><br>
     <input type="radio" name="exe" value=1>Yes
     <input type="radio" name="exe" value=2>No
     </p>
-    What are your favorite positions?
+    <label for="Favorite Positions">What are your favorite positions?</label><br>
     <p>
     <input type="checkbox" name="Right">Right Field
     <input type="checkbox" name="Left">Left Field
@@ -45,7 +45,7 @@
     <input type="checkbox" name="Catcher">Catcher
     <input type="checkbox" name="Pitcher">Pitcher    
     </p>
-    What type of game do you like?
+    <label for="Type of Game">What type of game do your like?</label><br>
     <select name="GamePref" ><option>
     <option value=1 selected = "true">Extra-Inning Games
     <option value=2 >Low-Scoring Games
