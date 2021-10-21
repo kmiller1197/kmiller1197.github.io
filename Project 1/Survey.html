@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <header>
+    <nav>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Baseball_%28crop%29.png" alt="BaseballLogo">
+    <div class = "mainmenu">
+    <a href="index.html">Home</a>
+    <a href="Survey.html">Survey</a>
+    <a href="MoreInformation.html">More Information</a>
+    <a href="PlayerStats.html">Player Stats</a>
+    </div>
+    </nav>
+    <form name="Baseball Information Form" method="POST" action="http://jorr.cs.georgefox.edu/resources/php/echo-form.php" id="Form">
+    <div align="center">
+    <h1>Baseball Information Form</h1>
+    <label for="Name">Enter your name:</label><br>
+    <input type="text" name="Name" size=35 maxlength=35 value="">
+    </br></br>
+    <label for="Favorite Team">Enter your favorite team:</label><br>
+    <input type="text" name="FavoriteTeam" size=35 maxlength=35 value=""> </br> </br>
+    <label for="Baseball Experience">Tell us a little about yourself and your experience with baseball:</label><br>
+    <textarea name="Description" cols=30 rows=4></textarea> </br> </br>
+    <label for="Watch at Home">Do you watch baseball at home?</label><br>
+    <input type="radio" name="exe" value=1>Yes
+    <input type="radio" name="exe" value=2>No
+    </p>
+    <label for="Favorite Positions">What are your favorite positions?</label><br>
+    <p>
+    <input type="checkbox" name="Right">Right Field
+    <input type="checkbox" name="Left">Left Field
+    <input type="checkbox" name="Center">Center Field
+    <input type="checkbox" name="First">First Base
+    <input type="checkbox" name="Second">Second Base
+    <input type="checkbox" name="Third">Third Base
+    <input type="checkbox" name="Short">Shortstop
+    <input type="checkbox" name="Catcher">Catcher
+    <input type="checkbox" name="Pitcher">Pitcher    
+    </p>
+    <label for="Type of Game">What type of game do your like?</label><br>
+    <select name="GamePref" ><option>
+    <option value=1 selected = "true">Extra-Inning Games
+    <option value=2 >Low-Scoring Games
+    <option value=3 >High-Scoring Games
+    <option value=4 >Close Games
+    <option value=5 >Blow-Out Games
+    </select>
+    </br></br>
+    <input type=submit value="Submit form">
+    </br><br>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Major_League_Baseball_logo.svg/320px-Major_League_Baseball_logo.svg.png" alt="MLB" id="Logo">
+  </body>
+</html>
