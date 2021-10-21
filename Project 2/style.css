@@ -1,0 +1,119 @@
+header {
+  background-image:url('https://www.adorama.com/alc/wp-content/uploads/2018/08/san-juans-feature-1024x464.jpg');
+  width: 100%;
+  height: 400px;
+  background-size: 100% 100%; 
+}
+
+h1 {
+  font-size: 70px;
+  margin: auto;
+  width:25%;
+  padding: 10px;
+  white-space: nowrap;
+  color:royalblue;
+  font-weight: bold;
+}
+
+h2 {
+  margin: auto;
+  width: 19%;
+  padding: 20px;
+  white-space: nowrap;
+  font-size: 38px;
+  color:pink;
+  font-weight: bold;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 10px;
+  float: right;
+  width: 250px;
+  background-color:lightseagreen;
+  color: white;
+  line-height:30px;
+  height:100%;
+  border-spacing: 20px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#zen-supporting {
+  float: left;
+  width:75%;
+}
+
+#zen-preamble {
+  width:75%;
+  background-color: pink;
+  text-align: right;
+  float: left;
+  color:forestgreen;
+  line-height:30px;
+}
+
+a:hover {
+  color:green;
+}
+
+#css-zen-garden {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  word-spacing: 25px;
+  margin: auto;
+  width: 20%;
+  padding: 20px;
+  float: none;
+}
+
+#zen-explanation {
+  background-color:lightblue;
+  float: left;
+  color:royalblue;
+  line-height:30px;
+}
+
+#zen-participation {
+  text-align: right;
+  background-color:pink;
+  float: left;
+  color:forestgreen;
+  line-height:30px;
+}
+
+#zen-benefits {
+  background-color:lightblue;
+  float: left;
+  color:royalblue;
+  line-height:30px;
+}
+
+#zen-requirements {
+  text-align: right;
+  background-color:pink;
+  float: left;
+  color:forestgreen;
+  line-height:30px;
+}
+
+#zen-summary {
+  background-color:lightblue;
+  width: 75%;
+  float: left;
+  color: black;
+  line-height:30px;
+}
+
+#zen-supporting {
+  background-color:lightgray;
+  color:royalblue;
+  line-height:30px;
+}
