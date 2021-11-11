@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dice Rolling</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="container">
+      <h1 class="Title" id="Title">Dice Rolling Game!<h1>
+      <div class="diceRoll">
+        <p class="playerOneDice" id="paragraph">Player 1 Roll:</p>
+        <img class="playerOneDiceImage" src="">
+      <div class="diceRoll">
+        <p class="playerTwoDice" id="paragraph2">Player 2 Roll:</p>
+        <img class="playerTwoDiceImage" src="">
+      </div>
+    </div>
+    <div class="lowerContainer">
+      <button type="button" id="dice" class ="rollDiceButton" onclick="diceRoll()">ROLL DICE</button>
+    </div>
+    <div class="lowerContainer">
+      <button type="button" id="name" class ="editPlayerNames" onclick="changeName()">PLAY AGAIN</button>
+    </div>
+    <div class="lowerContainer">
+      <button type="button" id="style" class ="editStyle" onclick="styleChanges()">CHANGE COLOR</button>
+    </div>
+    <div class="lowerContainer">
+      <button type="button" id="dark" class ="darkMode" onclick="darkMode()">DARK MODE</button>
+    </div>
+  </body>
+</html>
