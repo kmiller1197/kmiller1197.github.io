@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CatPage</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>CATS</h1>
+      <p>Fun Facts and Information</p>
+    </div><br>
+    <button class="button" onclick="catFacts()">Cat Fun Facts</button><br>
+    <p id="funFacts"></p>
+    <button class="button" onclick="catWeight()">Cat Weight Chart</button>
+    <canvas id="catChart" width="150" height="150"></canvas><br><br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <label for="cats">Select a cat image type:</label>
+    <select id="cats" name="cats">
+      <option value="/cute">/cute</option>
+      <option value="/hello">/hello</option>
+      <option value="/cute/says/hello">/cute/says/hello</option>
+    </select><br>
+    <button onclick="catImage()">Submit</button>
+  </body>
+</html>
