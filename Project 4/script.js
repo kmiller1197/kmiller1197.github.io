@@ -1,5 +1,5 @@
 function catFacts() {
-  const facts = [];
+  let facts = [];
   facts[0]= "1. Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans" + '<br />';
   facts[1]= "2. Cats are supposed to have 18 toes (five toes on each front paw; four toes on each back paw)" + '<br />';
   facts[2]= "3. Cats have an extra organ that allows them to taste scents on the air, which is why your cat stares at you with her mouth open from time to time" + '<br />';
@@ -55,12 +55,7 @@ function catWeight() {
 function catImage() {
   var input = document.getElementById("cats").value;
   let url = ("https://cataas.com/cat" + input);
-  fetch(url)
-    .then(function (response) {
-      // The JSON data will arrive here
-    })
-    .catch(function (err) {
-      // If an error occured, you will catch it here
-    });
+  //fetch(url);
+  document.querySelector("div.form").innerHTML = "<img src=" + url + " />";
 }
 // Source Credit: https://www.chartjs.org/docs/latest/samples/bar/vertical.html
